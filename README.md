@@ -43,7 +43,7 @@ Models: I3D 8 input. Baseline == drop rate 0.7, resize 232*290, sample rate 3.
 
 
 | <sub>Model</sub> | <sub>Best Val</sub> | <sub>Final Val</sub> | <sub>Final Train</sub> | <sub>Test Acc </sub>|
-| ------------- | ------------- | ------------- | ------------- |
+| ------------- | ------------- | ------------- | ------------- |------------- |
 | <sub>Base line</sub> | <sub>32.17 Val</sub> | <sub>31.14</sub> | <sub>88.78</sub> |  <sub>33.75</sub> | 
 | <sub>drop rate 0.5</sub> | <sub>32.92</sub> | <sub>32.23</sub> | <sub> 91.62</sub> |  <sub> 33.67</sub> | 
 | <sub>Resize 256*320</sub> | <sub>31.32</sub> | <sub>30.116</sub> | <sub>82.48</sub> |  <sub>34.37</sub> | 
