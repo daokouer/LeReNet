@@ -20,3 +20,14 @@ Conclusion: I3D experiment in paper(41.6) should be repeated and achieved.
 ### Experiment 2
 
 Models: I3D 8 input. Baseline == drop rate 0.8, resize 256*320, crop 224, sample rate 4.
+
+
+| <sub>Model</sub> | <sub>Final Val</sub> | <sub>Final Train</sub> | <sub>Test Acc </sub>|
+| ------------- | ------------- | ------------- | ------------- |
+| <sub>Base line</sub> | <sub> 28.64</sub> | <sub>77.86</sub> |  <sub>31.62</sub> | 
+| <sub>drop rate 0.6</sub> | <sub>29.43</sub> | <sub> 82.82</sub> |  <sub> 32.23</sub> | 
+| <sub>Resize 224*224</sub> | <sub> </sub> | <sub> </sub> |  <sub> </sub> | 
+| <sub>Resize 224*280</sub> | <sub> </sub> | <sub> </sub> |  <sub> </sub> | 
+| <sub>Resize 240*300</sub> | <sub> </sub> | <sub> </sub> |  <sub> </sub> | 
+| <sub>Sample rate 3</sub> | <sub> </sub> | <sub> </sub> |  <sub> </sub> | 
+| <sub>Sample rate 3 Resize 224*280</sub> | <sub> </sub> | <sub> </sub> |  <sub> </sub> | 
