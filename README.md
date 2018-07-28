@@ -14,3 +14,9 @@ Models: I3D 32 frames input non-local and mask non-local. Use I3D non-local affi
 | <sub>I3D 32 input</sub> | <sub>38.7</sub> | <sub>2.9 drop than I3D</sub> | 
 | <sub>I3D non-loal 32 input</sub> | <sub>44.05</sub> | <sub>0.35 drop than I3D nonlocal</sub> | 
 | <sub>I3D mask nlnet 32 input</sub> | <sub>45.3</sub> | <sub>1.1 increase than I3D non-local</sub> | 
+
+Conclusion: I3D experiment in paper(41.6) should be repeated and achieved.
+
+### Experiment 2
+
+Models: I3D 8 input. Baseline == drop rate 0.8, resize 256*320, crop 224, sample rate 4.
