@@ -39,7 +39,7 @@ Conclusion:
 
 ### Experiment 3
 
-Models: I3D 8 input. Baseline == drop rate 0.7, resize 232*290, sample rate 3.
+Models: I3D 8 input. Baseline == drop rate 0.7, resize 232*290, sample rate 3, Res5 stride 1.
 
 
 | <sub>Model</sub> | <sub>Best Val</sub> | <sub>Final Val</sub> | <sub>Final Train</sub> | <sub>Test Acc </sub>|
