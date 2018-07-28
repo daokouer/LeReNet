@@ -26,8 +26,8 @@ Models: I3D 8 input. Baseline == drop rate 0.8, resize 256*320, crop 224, sample
 | ------------- | ------------- | ------------- | ------------- |
 | <sub>Base line</sub> | <sub> 28.64</sub> | <sub>77.86</sub> |  <sub>31.62</sub> | 
 | <sub>drop rate 0.6</sub> | <sub>29.43</sub> | <sub> 82.82</sub> |  <sub> 32.23</sub> | 
-| <sub>Resize 224*224</sub> | <sub> </sub> | <sub> </sub> |  <sub> </sub> | 
-| <sub>Resize 224*280</sub> | <sub> </sub> | <sub> </sub> |  <sub> </sub> | 
-| <sub>Resize 240*300</sub> | <sub> </sub> | <sub> </sub> |  <sub> </sub> | 
-| <sub>Sample rate 3</sub> | <sub> </sub> | <sub> </sub> |  <sub> </sub> | 
-| <sub>Sample rate 3 Resize 224*280</sub> | <sub> </sub> | <sub> </sub> |  <sub> </sub> | 
+| <sub>Resize 224*224</sub> | <sub>31.55</sub> | <sub>91.17</sub> |  <sub>30.10</sub> | 
+| <sub>Resize 224*280</sub> | <sub>31.11</sub> | <sub>85.77</sub> |  <sub>31.74</sub> | 
+| <sub>Resize 240*300</sub> | <sub>30.17</sub> | <sub>81.82</sub> |  <sub>30.45</sub> | 
+| <sub>Sample rate 3</sub> | <sub> 31.83</sub> | <sub>72.80</sub> |  <sub>35.71</sub> | 
+| <sub>Sample rate 3 Resize 224*280</sub> | <sub>34.12</sub> | <sub>33.72</sub> |  <sub> 35.31</sub> | 
