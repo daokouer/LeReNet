@@ -50,3 +50,16 @@ Models: I3D 8 input. Baseline == drop rate 0.7, resize 232*290, sample rate 3, R
 |<sub>Resize 232*348</sub>|<sub>30.95</sub>|<sub>30.64</sub>|<sub>80.35</sub>|<sub>34.84</sub>|<sub>35.29</sub>|
 
 
+### Experiment 4
+Models: I3D 32 input.
+|<sub> model </sub>|<sub>len</sub>|<sub>drop</sub>|<sub>best val</sub>|<sub>final val</sub>|<sub>final train</sub>|<sub>final test</sub>|
+|-----------|-------|--------|------------|-------------|---------------|--------------|
+|<sub>256*320</sub>|<sub>32 </sub>|<sub>0.75</sub>|<sub> 37.42  </sub>|<sub>  37.34  </sub>|<sub>  78.57    </sub>|<sub>   43.47  </sub>|
+|<sub>256*376</sub>|<sub>32 </sub>|<sub>0.75</sub>|<sub> 35.88  </sub>|<sub>  35.52  </sub>|<sub>  72.86    </sub>|<sub>   43.37  </sub>|
+|<sub>232*290</sub>|<sub>28 </sub>|<sub>0.75</sub>|<sub> 39.40  </sub>|<sub>  38.91  </sub>|<sub>  85.12    </sub>|<sub>   42.74  </sub>|
+|<sub>232*290</sub>|<sub>32 </sub>|<sub>0.7 </sub>|<sub> 39.23  </sub>|<sub>  39.23  </sub>|<sub>  85.70    </sub>|<sub>   42.94  </sub>|
+|<sub>232*290</sub>|<sub>32 </sub>|<sub>0.85</sub>|<sub> 39.08  </sub>|<sub>  39.08  </sub>|<sub>  81.88    </sub>|<sub>   42.79  </sub>|
+|<sub>232*348</sub>|<sub>32 </sub>|<sub>0.75</sub>|<sub> 38.14  </sub>|<sub>  37.88  </sub>|<sub>  76.88    </sub>|<sub>   44.44  </sub>|
+|<sub>224*360</sub>|<sub>32 </sub>|<sub>0.75</sub>|<sub> 38.18  </sub>|<sub>  37.37  </sub>|<sub>  85.86    </sub>|<sub>   44.51  </sub>|
+
+
