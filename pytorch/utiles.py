@@ -74,7 +74,7 @@ class loader(Data.Dataset):
         else:
             indexes = torch.randint(img_num,size=(num_frames))
             indexes.sort()
-        return [i+1 for i in indexes]
+        return indexes
 
     def train_trans(img, size, box, 
                     brightness, contrast, saturation, hue, 
