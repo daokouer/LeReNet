@@ -107,7 +107,7 @@ class loader(Data.Dataset):
         sample_index = self.get_index(img_num)
         video = None
         for img_item in sample_index:
-            path = '%s/%d/%05d.jpg'%(self.path, video_id, img_item+1)
+            path = '%s/%05d.jpg'%(video_path, img_item+1)
             img = Image.open(path)
             if self.test:
                 img = test_trans(img, self.size, self.mean, self.std)
