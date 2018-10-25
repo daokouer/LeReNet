@@ -25,7 +25,7 @@ class Bottleneck(nn.Module):
 
         self.downsample = nn.Sequential()
         if stride != 1 or inplanes != self.expansion*planes:
-            self.shortcut = nn.Sequential(
+            self.downsample = nn.Sequential(
                 nn.Conv3d(inplanes, self.expansion*planes, 
                           kernel_size=(1,1,1), 
                           stride=(1,stride,stride), 
@@ -44,7 +44,7 @@ class Bottleneck(nn.Module):
         out = self.conv3(out)
         out = self.bn3(out)
 
-        out += self.shortcut(x)
+        out += self.downsample(x)
         out = self.relu(out)
 
         return out
@@ -103,4 +103,4 @@ class I3DResNet(nn.Module):
         return x
 
 def ResNet50():
-    return I3DResNet(Bottleneck, [2, 2, 2, 2])
+    return I3DResNet(Bottleneck, [3, 4, 6, 3])
