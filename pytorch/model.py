@@ -23,7 +23,7 @@ class Bottleneck(nn.Module):
         self.bn3 = nn.BatchNorm3d(planes * 4)
         self.relu = nn.ReLU(inplace=True)
 
-        self.shortcut = nn.Sequential()
+        self.downsample = nn.Sequential()
         if stride != 1 or inplanes != self.expansion*planes:
             self.shortcut = nn.Sequential(
                 nn.Conv3d(inplanes, self.expansion*planes, 
